@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"comment",
+				"comment-list"
+			],
+			[
+				"bod",
+				"body_element"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/controllers/worker.js",
+			"settings":
+			{
+				"buffer_size": 1890,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/git/node-ticket-manager/lib/controllers/worker.js",
+		"/D/git/node-ticket-manager/src/controllers/ticket.coffee",
+		"/D/git/node-ticket-manager/src/models/worker.coffee",
+		"/D/down/xshell download/lib/middleware.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
+		"/D/git/node-ticket-manager/src/controllers/worker.coffee",
+		"/D/git/node-ticket-manager/lib/tests/mock_tickets_test.js",
+		"/D/git/node-ticket-manager/lib/ticket_manager.js",
+		"/D/git/node-ticket-manager/lib/models/ticket.js",
+		"/D/down/xshell download/lib/models/ticket.js",
+		"/D/git/node-ticket-manager/src/models/ticket.coffee",
+		"/D/git/node-ticket-manager/client/python/tickets_comment.py",
+		"/D/git/node-ticket-manager/client/python/tickets_complete.py",
+		"/D/git/node-ticket-manager/client/python/tickets_find.py",
+		"/D/git/node-ticket-manager/client/python/tickets_giveup.py",
+		"/D/git/node-ticket-manager/client/python/tickets_assign.py",
+		"/D/git/node-ticket-manager/package.json",
+		"/D/git/node-ticket-manager/src/tests/mock_tickets_test.coffee",
+		"/D/git/node-ticket-manager/lib/tests/mock_workers_test.js",
+		"/D/git/node-ticket-manager/lib/tests/ticket_test.js",
+		"/D/git/node-ticket-manager/lib/models/worker.js",
+		"/D/down/xshell download/lib/models/worker.js",
+		"/D/git/node-ticket-manager/lib/server.js",
+		"/D/mongodb/conf/mongod.yaml",
+		"/D/git/node-ticket-manager/README.md",
+		"/D/git/node-ticket-manager/lib/enums/ticket_status.js",
+		"/D/git/node-ticket-manager/tests",
+		"/D/git/node-ticket-manager/lib/tests/ticket_manager_test.js",
+		"/D/git/node-ticket-manager/lib/index.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/models/ticket.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/controllers/ticket.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/config/routes.js",
+		"/D/git/node-ticket-manager/Capfile",
+		"/C/Users/Administrator/AppData/Local/Temp/7zO4A2095C5/utils.py",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/server.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/utils/view_helper.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/config/express.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/views/tickets/index.jade",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/public/js/endless_scroll/jquery.scroll-on-mongoose.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/views/includes/head.jade",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/views/layouts/default.jade",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/index.js",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/views/includes/header.jade",
+		"/D/LearningResource/src/node-ticket-manager-0.2.5/lib/enums/ticket_status.js",
+		"/D/xampp/htdocs/wordpress/wp-includes/class.wp-styles.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/style.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/single.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/footer.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/footer.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/css/wpbase.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/content.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/functions/functions.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/index.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/template-about.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/twentyfifteen/footer.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/page.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/twentyfourteen/footer.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/twentyfourteen/functions.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/footer.php",
+		"/D/xampp/htdocs/wordpress/.htaccess",
+		"/D/xampp/htdocs/wordpress/wp-content/plugins/hello.php",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/pay/callback/demo/servlet/CallbackDemo.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/pay/callback/demo/domain/ResultDomain.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/id/HttpRequester.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/id/HttpResponse.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/id/UserInfo.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/id/ValidToken.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/pay/callback/demo/util/Base64.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/pay/callback/demo/util/CommonUtil.java",
+		"/D/OMG/酒店盒子/华为/HWTV_SDK_V1.2/HWTV_SDK_V1.2/server_demo/HuaweiServerDemo/src/com/huawei/pay/callback/demo/util/RSA.java",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/blain/header.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/comments.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/functions/comments-layout.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/archive.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/author-bio.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/header.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/footer.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/flat.sublime-project",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/index.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/single.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/content.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/searchform.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/header.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/sidebar.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/content-single.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/functions.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/inc/hooks.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/inc/customize.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/functions.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/index.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/core/main.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/functions.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/index.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/home-blog.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/header.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/style.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/404.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/blog.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/css/bootstrap.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/assets/css/flat.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/css/wpbase.min.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/style.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/js/bootstrap.js",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/functions/tracking.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/stanleywp/functions/hooks.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/sidebar-primary.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/functions.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/archive.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/404.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/single.php",
+		"/C/Users/Administrator/Downloads/index.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/page.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/header.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/js/bootstrap.js",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/search.php",
+		"/D/xampp/htdocs/wordpress/wp-includes/js/comment-reply.js",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/404.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/attachment.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/404.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/page.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/inc/template-tags.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/archive.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/style.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/twentyfourteen/inc/back-compat.php",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/css/bootstrap-theme.min.css",
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/core/admin/inc/css/theme.css"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"findById",
+			"token",
+			"changestatus",
+			"lib",
+			"paginate",
+			"model",
+			"index",
+			"arrangeAssignment",
+			"after",
+			"findByIdAndUpdate",
+			"menu",
+			"comment",
+			"aria_req",
+			"avatar",
+			"site-info",
+			"grey",
+			"tag",
+			"content",
+			"wrapper",
+			"more",
+			"col-lg-8",
+			"comment-form-comment",
+			"label",
+			"cursor",
+			"comment-metadata",
+			"comment-body",
+			"reply",
+			"comment-list",
+			"new",
+			"comment-list",
+			"comment",
+			"comments",
+			"post-title",
+			"header",
+			"open",
+			"entry-thumbnail",
+			"header",
+			"comments_popup_link",
+			"flat",
+			"flat_entry_meta",
+			"novalite_header_content",
+			"post-title",
+			"the_content",
+			"get_template_part",
+			"get_avatar",
+			"avata",
+			"container",
+			"wp_query",
+			"wp_query\nwp_query",
+			"wp_query",
+			"container",
+			"color_id",
+			"container",
+			"container-fluid",
+			"container",
+			"extras",
+			"extra",
+			"#1abc9c",
+			"color",
+			"page-numbers",
+			"nav",
+			"pagination",
+			"navigation",
+			"screen-reader-text",
+			".screen-reader-text",
+			".screen-reader-text {\n    position: absolute;\n    width: 1px;\n    height: 1px;\n    margin: -1px;\n    padding: 0;\n    overflow: hidden;\n    clip: rect(0, 0, 0, 0);\n    border: 0;\nscreen-reader",
+			".screen-reader-text {\n    position: absolute;\n    width: 1px;\n    height: 1px;\n    margin: -1px;\n    padding: 0;\n    overflow: hidden;\n    clip: rect(0, 0, 0, 0);\n    border: 0;\nscreen_reader",
+			"screen-reader-text",
+			"left",
+			"wp_query",
+			"28",
+			"widget",
+			"display",
+			"hide",
+			"sidebar",
+			"metaicon",
+			"romangie_right_col_class",
+			"pagenav",
+			"romangie_countComments",
+			"wp_count_comments",
+			"romangie_countComments",
+			"do_action",
+			"flat_hook_head_top",
+			"register_nav_menus",
+			"novalite_postmeta",
+			"css",
+			"stylesheet_url",
+			"section1",
+			"$"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/controllers/worker.js",
+					"settings":
+					{
+						"buffer_size": 1890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true
+}

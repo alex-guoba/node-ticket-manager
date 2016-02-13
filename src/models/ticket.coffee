@@ -16,10 +16,11 @@ MIN_FIELD_SELECTION =
 
 ## Schema
 schemaStructure =
-  title : String
+  title : {type:String, index:true}
   owner_id : String
   attempts : {type:Number, default: 0}
   category : String
+  description: String
   status : {type: String, default: STATUS.PENDING }
   content : Schema.Types.Mixed
   #comments : [Schema.Types.Mixed]

@@ -18,11 +18,17 @@ exports.authWorker = (req, res, next)->
   Worker.findById workerId, (err, worker)->
     return next err if err?
     return next(new Error "missing worker #{workerId}") unless worker
-    if oauth.verify(signature, req.method, req.url, req.body, worker['consumer_secret']) and not worker.trashed_at?
+    next(new Error "worker trashed") if worker.trashed_at?
+    if oauth.verify(signature, req.method, req.url, req.body, worker['consumer_secret']) 
       req.worker = worker
       next()
     else
-      next(new Error "signature mismatch")
+      fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl
+      if oauth.verify(signature, req.method, fullUrl, req.body, worker['consumer_secret'])
+        req.worker = worker
+        next()
+      else
+        next(new Error "signature mismatch")
     return
   return
 
