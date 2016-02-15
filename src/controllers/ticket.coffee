@@ -24,7 +24,11 @@ exports.index = (req, res, next)->
 exports.list = (req, res, next)->
   debuglog "list req.query: %j", req.query
 
-  query = Ticket.paginate(req.query || {}, '_id').select('-comments -content')
+  if req.query._sortby?
+    _sortby = req.query._sortby
+  else
+    _sortby = '_id'
+  query = Ticket.paginate(req.query || {}, _sortby).select('-comments -content')
 
   if req.query.status?
     query.where
@@ -35,6 +39,26 @@ exports.list = (req, res, next)->
     result.success = true
     console.log "[ticket::list] dump result:"
     console.dir result
+    res.json result
+  return
+
+
+exports.find = (req, res, next)->
+  debuglog "find req.query: %j", req.query
+
+  where = []
+  for own key, value of req.body
+    kw = {}
+    kw[key] = value
+    where.push kw
+
+  query = Ticket.paginate(req.query || {}).select('-comments -content')
+  if where.length
+    query.where $and:where
+
+  query.execPagination (err, result)->
+    return next err if err?
+    result.success = true
     res.json result
   return
 

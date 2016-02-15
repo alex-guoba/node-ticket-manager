@@ -22,6 +22,54 @@
 				"buffer_size": 1890,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "lib/utils/view_helper.js",
+			"settings":
+			{
+				"buffer_size": 2115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/tickets/index.jade",
+			"settings":
+			{
+				"buffer_size": 5305,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/includes/foot.jade",
+			"settings":
+			{
+				"buffer_size": 491,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/jquery.timeago.js",
+			"settings":
+			{
+				"buffer_size": 7222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/tickets/show.jade",
+			"settings":
+			{
+				"buffer_size": 3791,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/utils/view_helper.coffee",
+			"settings":
+			{
+				"buffer_size": 1758,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -52,8 +100,21 @@
 	},
 	"file_history":
 	[
-		"/D/git/node-ticket-manager/lib/controllers/worker.js",
+		"/D/git/node-ticket-manager/src/utils/view_helper.coffee",
+		"/D/git/node-ticket-manager/public/js/jquery.prettydate.js",
+		"/D/git/node-ticket-manager/public/js/jquery.timeago.js",
 		"/D/git/node-ticket-manager/src/controllers/ticket.coffee",
+		"/D/git/node-ticket-manager/views/tickets/index.jade",
+		"/D/git/node-ticket-manager/client/python/tickets_comment.py",
+		"/D/git/node-ticket-manager/client/python/tickets_assign.py",
+		"/D/git/node-ticket-manager/client/python/tickets_complete.py",
+		"/D/git/node-ticket-manager/client/python/tickets_find.py",
+		"/D/git/node-ticket-manager/client/python/tickets_giveup.py",
+		"/D/git/node-ticket-manager/src/config/routes.coffee",
+		"/D/git/node-ticket-manager/lib/controllers/ticket.js",
+		"/D/git/node-ticket-manager/views/tickets/show.jade",
+		"/D/git/node-ticket-manager/public/css/app.css",
+		"/D/git/node-ticket-manager/lib/controllers/worker.js",
 		"/D/git/node-ticket-manager/src/models/worker.coffee",
 		"/D/down/xshell download/lib/middleware.js",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
@@ -63,11 +124,6 @@
 		"/D/git/node-ticket-manager/lib/models/ticket.js",
 		"/D/down/xshell download/lib/models/ticket.js",
 		"/D/git/node-ticket-manager/src/models/ticket.coffee",
-		"/D/git/node-ticket-manager/client/python/tickets_comment.py",
-		"/D/git/node-ticket-manager/client/python/tickets_complete.py",
-		"/D/git/node-ticket-manager/client/python/tickets_find.py",
-		"/D/git/node-ticket-manager/client/python/tickets_giveup.py",
-		"/D/git/node-ticket-manager/client/python/tickets_assign.py",
 		"/D/git/node-ticket-manager/package.json",
 		"/D/git/node-ticket-manager/src/tests/mock_tickets_test.coffee",
 		"/D/git/node-ticket-manager/lib/tests/mock_workers_test.js",
@@ -171,15 +227,7 @@
 		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/search.php",
 		"/D/xampp/htdocs/wordpress/wp-includes/js/comment-reply.js",
 		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/404.php",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/attachment.php",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/404.php",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/page.php",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/flat/inc/template-tags.php",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/archive.php",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/style.css",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/twentyfourteen/inc/back-compat.php",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/romangie/css/bootstrap-theme.min.css",
-		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/core/admin/inc/css/theme.css"
+		"/D/xampp/htdocs/wordpress/wp-content/themes/nova-lite/attachment.php"
 	],
 	"find":
 	{
@@ -197,6 +245,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"localeTitle",
+			"time",
+			"localeTitle",
+			"title",
+			"56bdaf90e35e63a42188e77e",
+			"else",
 			"findById",
 			"token",
 			"changestatus",
@@ -303,7 +357,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -330,6 +384,172 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/utils/view_helper.js",
+					"settings":
+					{
+						"buffer_size": 2115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 239.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/tickets/index.jade",
+					"settings":
+					{
+						"buffer_size": 5305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3552,
+								3552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/includes/foot.jade",
+					"settings":
+					{
+						"buffer_size": 491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/jquery.timeago.js",
+					"settings":
+					{
+						"buffer_size": 7222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5181,
+								5192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 442.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/tickets/show.jade",
+					"settings":
+					{
+						"buffer_size": 3791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/utils/view_helper.coffee",
+					"settings":
+					{
+						"buffer_size": 1758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

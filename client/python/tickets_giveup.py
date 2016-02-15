@@ -5,7 +5,7 @@ from ticket_worker import tickets_client
 
 def giveup(tid):
     client = tickets_client.TicketsClient('http://localhost:3456', 
-            '56b416949a574a9f7d607179', '6d064823-eae8-441d-8c76-3344cf9b1fb0',
+            '56bdaf90e35e63a42188e77e', 'e6a32029-b2c4-4a2a-8271-bebb05a66838',
             'dev', '123')
 
     print client.giveup(tid)

@@ -20,7 +20,8 @@ helpers =
   genDateTag : (date) ->
     isoStr = if date instanceof Date then date.toISOString() else date
     dateStr = if date instanceof Date then date.toDateString() else date
-    return "<small title='#{isoStr}' class='muted timeago'>#{dateStr}</small>"
+    #return "<small title='#{isoStr}' class='muted timeago'>#{dateStr}</small>"
+    return "<time class='timeago' datetime=" + isoStr + " title='" + dateStr + "'>" + dateStr + "</time>";
 
   genPagination : (pageData)->
     return pagination.create('search', pageData).render()

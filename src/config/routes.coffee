@@ -26,6 +26,7 @@ module.exports = (app, passport, auth)->
   app.post '/api/tickets/new', controller.create
 
   app.put '/api/tickets/assign', m.authWorker, controller.assign
+  app.post '/api/tickets/find', m.authWorker, controller.find
   app.put '/api/tickets/:id/comment', m.authWorker, m.updateWorkerAt, controller.comment
   app.put '/api/tickets/:id/complete', m.authWorker, controller.complete
   app.put '/api/tickets/:id/giveup', m.authWorker,  controller.giveup
