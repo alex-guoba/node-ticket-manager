@@ -10,7 +10,9 @@ def find(key, value):
             'dev', '123')
 
     parameters = {key:value}
-    print client.find(parameters)
+    result = client.find(parameters)
+    import json
+    print json.dumps(result, indent=4)
 
 if __name__ == '__main__':
     import sys

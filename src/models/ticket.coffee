@@ -180,15 +180,19 @@ TicketSchema.statics.arrangeAssignment = (options, callback)->
 
   options or= EMPTY_OBJ
   worker = String(options.worker || options.name || "")
-  category = String(options.category || "")
 
-  return callback(new Error("missing request params, worker:#{worker}, category:#{category}")) unless worker and category
+  return callback(new Error("missing request params, worker:#{worker}")) unless worker
 
-  query =
-    $and :[
-      {category : category}
-      {status : STATUS.PENDING}
-    ]
+  if options.id?
+    query = {_id: options.id}
+  else
+    category = String(options.category || "")
+    return callback(new Error("missing request params: category")) unless category
+    query =
+      $and :[
+        {category : category}
+        {status : STATUS.PENDING}
+      ]
 
   this.findOne(query).sort({updated_at : 'asc'}).exec (err, ticket)=>
     return callback err if err?

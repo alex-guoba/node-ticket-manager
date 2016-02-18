@@ -51,7 +51,7 @@ if p.config
 mongoose = require('mongoose')
 
 # Bootstrap db connection
-mongoose.connect(config.db)
+mongoose.connect(config.db, auth: config.dbAuth || {})
 
 mongoose.set('debug', true) if env is 'development'
 

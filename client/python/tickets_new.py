@@ -15,7 +15,9 @@ def new_ticket(start, end):
         content = {'seq': i, 'from': u"连姆?尼森所扮演的硬汉特工布赖恩与前妻诺尔破镜重圆".encode('utf-8')} 
         description = u"飓风营救_".encode('utf-8') + str(i)
         owner_id = 'Southen New Media'
-        print client.new(title, category, content, description, owner_id = owner_id)
+        result =  client.new(title, category, content, description, owner_id = owner_id)
+        import json
+        print json.dumps(result, indent=4)
 
 if __name__ == '__main__':
     import sys
